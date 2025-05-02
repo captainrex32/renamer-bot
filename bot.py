@@ -72,7 +72,7 @@ def rename_file(update, context):
     # Save temporarily
     temp_file = "temp_file"
     with open(temp_file, 'wb') as f:
-        f.write_data)
+        f.write_data(file_data)
     
     # Rename and send back
     new_file_path = new_name
