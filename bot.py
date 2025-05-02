@@ -108,7 +108,7 @@ def convert_file_to_video(update, context):
         # Save temporarily
         temp_file = "input_file"
         with open(temp_file, 'wb') as f:
-            f.write_data)
+            f.write(file_data)
         
         # Convert to video using FFmpeg
         output_file = "output.mp4"
